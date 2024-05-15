@@ -4,6 +4,7 @@
 
 ## Logisim单周期处理器
 
-1.处理器应支持的指令集MIPS-Lite: addu,subu,ori,lw,sw,beq,lui,j (addu,subu可以不支持实现溢出)
+1.处理器应支持的指令集MIPS-Lite: addu, subu, ori, lw, sw, beq, lui, j 
+>(addu,subu可以不支持实现溢出)
 
 2.处理器为单周期设计
