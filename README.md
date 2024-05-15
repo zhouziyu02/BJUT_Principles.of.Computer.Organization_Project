@@ -5,6 +5,16 @@
 ## Logisim单周期处理器
 
 1.处理器应支持的指令集MIPS-Lite: addu, subu, ori, lw, sw, beq, lui, j 
->(addu,subu可以不支持实现溢出)
+>a) (addu,subu可以不支持实现溢出)
+
+2.处理器为单周期设计
+
+## VerilogHDL单周期处理器
+
+1.处理器应实现MIPS-Lite1指令集
+
+>a)	MIPS-Lite1＝{MIPS-Lite, addi, addiu, slt, jal, jr}
+>b)	MIPS-Lite指令集: addu, subu, ori, lw, sw, beq, lui, j
+>c)	addi应支持溢出，溢出标志写入寄存器$30中第0位
 
 2.处理器为单周期设计
