@@ -14,7 +14,10 @@
 1.处理器应实现MIPS-Lite1指令集
 
 >a)	MIPS-Lite1＝{MIPS-Lite, addi, addiu, slt, jal, jr}
+
 >b)	MIPS-Lite指令集: addu, subu, ori, lw, sw, beq, lui, j
+
 >c)	addi应支持溢出，溢出标志写入寄存器$30中第0位
+
 
 2.处理器为单周期设计
