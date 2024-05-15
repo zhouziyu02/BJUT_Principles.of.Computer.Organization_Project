@@ -1,0 +1,430 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech_10.1a\examples
+vA
+V95j1AW2[NVhJ<TEQEL[1I2
+r1
+31
+I;cKAe`DAFVK_e8SW4c@=g3
+Z0 dC:\Users\JustinSong\Desktop\p3
+w1593933813
+8C:/Users/JustinSong/Desktop/p3/register.v
+FC:/Users/JustinSong/Desktop/p3/register.v
+L0 1
+Z1 OE;L;10.1a;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@a
+!i10b 1
+!s85 0
+!s100 Xn>G4fbi:_OA<`hZ_<8Gm2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/register.v|
+!s108 1593971534.762000
+!s107 C:/Users/JustinSong/Desktop/p3/register.v|
+vALU
+VW2`POUS>T3WRIJ`zUgZ=b3
+r1
+31
+I6Ol6m@DO40J31<Z^7e4<Y0
+Z3 dC:\Users\JustinSong\Desktop\p3
+w1593783746
+8C:/Users/JustinSong/Desktop/p3/ALU.v
+FC:/Users/JustinSong/Desktop/p3/ALU.v
+L0 1
+R1
+R2
+n@a@l@u
+!i10b 1
+!s85 0
+!s100 S0X?BXVi370UEl^YaGh0?1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/ALU.v|
+!s108 1593971532.276000
+!s107 C:/Users/JustinSong/Desktop/p3/ALU.v|
+vbridge
+VHdRlbG>CZY^?h3]8eH>fJ1
+r1
+31
+I53WK;?6I1Q3Q2c_@mX0IQ3
+R3
+w1593964246
+8C:/Users/JustinSong/Desktop/p3/bridge.v
+FC:/Users/JustinSong/Desktop/p3/bridge.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 :;665QdcZBK]=fRI[fiT83
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/bridge.v|
+!s108 1593971533.948000
+!s107 C:/Users/JustinSong/Desktop/p3/bridge.v|
+vCP0
+V@oY7a=[4?V3=WCK?Z2OBz2
+r1
+31
+I72]AcE>mfBD:WjGHBVB8M0
+R3
+w1593964488
+8C:/Users/JustinSong/Desktop/p3/cp0.v
+FC:/Users/JustinSong/Desktop/p3/cp0.v
+L0 1
+R1
+R2
+n@c@p0
+!i10b 1
+!s85 0
+!s100 m`2=ecJTVl0kljTCLFgA^0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/cp0.v|
+!s108 1593971534.160000
+!s107 C:/Users/JustinSong/Desktop/p3/cp0.v|
+vcu
+VnN7JKRf_kW`E=nP@5MfV60
+r1
+31
+I=d5VkHJN6]gdoIo78UZMR3
+R3
+w1593970747
+8C:/Users/JustinSong/Desktop/p3/ctr.v
+FC:/Users/JustinSong/Desktop/p3/ctr.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 DhLK_CGGBRGKY7fWZhmLR1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/ctr.v|
+!s108 1593971533.597000
+!s107 C:/Users/JustinSong/Desktop/p3/ctr.v|
+vdm
+VnRN3jCdj2XlWMOoJAVT8A3
+r1
+31
+IDSTL6dfLY0I_N9DKo<m9f0
+R3
+w1593953408
+Z4 8C:/Users/JustinSong/Desktop/p3/DM.v
+Z5 FC:/Users/JustinSong/Desktop/p3/DM.v
+L0 1
+R1
+Z6 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/DM.v|
+R2
+Z7 !s107 C:/Users/JustinSong/Desktop/p3/DM.v|
+!i10b 1
+!s85 0
+!s100 <Sf7CUJCfeCl;h5B;Jh`b1
+!s108 1593971532.494000
+vdm_1k
+Ie8zRPIWm^P;foM>d5cc:g3
+VHb_zdC1410ZkAGc[T]_4^2
+R3
+w1593865153
+R4
+R5
+L0 1
+R1
+r1
+31
+R6
+R2
+R7
+!s100 YW<SKoezVbjB;YNWo6cJ53
+!s108 1593951842.614000
+!i10b 1
+!s85 0
+vEXT
+VbcHW@9Jk]IIY;6`Y=:D_e1
+r1
+31
+ILZ6n=[0<QBQo]4;;Q[di^0
+R3
+w1593951846
+8C:/Users/JustinSong/Desktop/p3/ext.v
+FC:/Users/JustinSong/Desktop/p3/ext.v
+L0 1
+R1
+R2
+n@e@x@t
+!i10b 1
+!s85 0
+!s100 De_TKAI_M;BGoAdej;LBl3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/ext.v|
+!s108 1593971535.564000
+!s107 C:/Users/JustinSong/Desktop/p3/ext.v|
+vGPR
+V1O84n[ZaUkL48P2I4FjY`0
+r1
+31
+I5]Szl?hkF7i34[cCjSO5;2
+R3
+w1593953441
+8C:/Users/JustinSong/Desktop/p3/GPR.v
+FC:/Users/JustinSong/Desktop/p3/GPR.v
+L0 1
+R1
+R2
+n@g@p@r
+!i10b 1
+!s85 0
+!s100 zhKT4hi;0[c]AJD`2`5cd1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/GPR.v|
+!s108 1593971535.150000
+!s107 C:/Users/JustinSong/Desktop/p3/GPR.v|
+vim
+VXG:G_M[^`<>8iVoTU<6lU0
+r1
+31
+IJOMo]f^CB0QmY=?WF514P3
+R3
+w1593952510
+Z8 8C:/Users/JustinSong/Desktop/p3/IM.v
+Z9 FC:/Users/JustinSong/Desktop/p3/IM.v
+L0 1
+R1
+Z10 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/IM.v|
+R2
+Z11 !s107 C:/Users/JustinSong/Desktop/p3/IM.v|
+!i10b 1
+!s85 0
+!s100 Bf<lY4^LS7;OS6AF5Kg6O0
+!s108 1593971532.705000
+vim_1k
+IQHX07TAb9ZTk5Elm7z9Vb1
+VhWmVPd4oE5A1Xkle@lUIl2
+R3
+w1593933820
+R8
+R9
+L0 1
+R1
+r1
+31
+R10
+R2
+R11
+!s100 ?8U@gIlLjKm_O9nZgTQZc2
+!s108 1593951842.950000
+!i10b 1
+!s85 0
+vIMr
+VgnF9Ti:g8mg_Zb>;4H8Oo0
+r1
+31
+IDV[Rm;51WcOoP]<GZe@af1
+R3
+w1593951685
+8C:/Users/JustinSong/Desktop/p3/ir.v
+FC:/Users/JustinSong/Desktop/p3/ir.v
+L0 1
+R1
+R2
+n@i@mr
+!i10b 1
+!s85 0
+!s100 ]Sd[Q8:XfSzhfZbEh:7BT1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/ir.v|
+!s108 1593971535.355000
+!s107 C:/Users/JustinSong/Desktop/p3/ir.v|
+vinDev
+V=jb`Z=R:zjL9Ff`O@kYYl1
+r1
+31
+IcTfcng^Lc^?C>W^I@1BkX1
+R3
+w1593956869
+8C:/Users/JustinSong/Desktop/p3/devin.v
+FC:/Users/JustinSong/Desktop/p3/devin.v
+L0 1
+R1
+R2
+nin@dev
+!i10b 1
+!s85 0
+!s100 [Z`=Lh=Ci1Da[EE=<EeK90
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/devin.v|
+!s108 1593971535.805000
+!s107 C:/Users/JustinSong/Desktop/p3/devin.v|
+vLB
+I:=bDdB8P^IH8ACPl?OG@13
+VA]ofA]l;iF6A]MDzOoFgj2
+R3
+w1593783660
+8C:/Users/JustinSong/Desktop/p3/LB.v
+FC:/Users/JustinSong/Desktop/p3/LB.v
+L0 1
+R1
+r1
+31
+R2
+n@l@b
+!s100 L3adZ5ReF?cB^B<7<mCL91
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/LB.v|
+!s108 1593951842.009000
+!s107 C:/Users/JustinSong/Desktop/p3/LB.v|
+!i10b 1
+!s85 0
+vmach
+VC;XXbK0o_3:_CXT`XCZYP1
+r1
+31
+IX[YA04;bN^1<?k;@<f^`;0
+R3
+w1593968024
+8C:/Users/JustinSong/Desktop/p3/machine.v
+FC:/Users/JustinSong/Desktop/p3/machine.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 khCc0oEHg^<@K[bjFj?mi2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/machine.v|
+!s108 1593971534.961000
+!s107 C:/Users/JustinSong/Desktop/p3/machine.v|
+vmips
+VU_DE<g^5ONkJI[f0b[C751
+r1
+31
+IU4T<PfW=39gGG@_e1^Kj=2
+R3
+w1593971511
+8C:/Users/JustinSong/Desktop/p3/mips.v
+FC:/Users/JustinSong/Desktop/p3/mips.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/mips.v|
+!s100 b8?TA?H^Wn`EnV?mi5^MH3
+!s108 1593971534.367000
+!s107 C:/Users/JustinSong/Desktop/p3/mips.v|
+vnpc
+VeI[>[LJO@A:AJomo:`ZlG0
+r1
+31
+IcO^7:4PETHgBRVOZbnANY3
+R3
+w1593953406
+8C:/Users/JustinSong/Desktop/p3/npc.v
+FC:/Users/JustinSong/Desktop/p3/npc.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 J>M]7azIO4HRW3E61;NP>3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/npc.v|
+!s108 1593971532.082000
+!s107 C:/Users/JustinSong/Desktop/p3/npc.v|
+voutDev
+VW0_T`<Ue8em`SR`WbJbcc3
+r1
+31
+IJg`9A58=2^aXAfAHTkg8X1
+R3
+w1593956900
+8C:/Users/JustinSong/Desktop/p3/devout.v
+FC:/Users/JustinSong/Desktop/p3/devout.v
+L0 1
+R1
+R2
+nout@dev
+!i10b 1
+!s85 0
+!s100 PXP8QgBGJe_c@VFIDb4bX3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/devout.v|
+!s108 1593971536.837000
+!s107 C:/Users/JustinSong/Desktop/p3/devout.v|
+vpc
+Vn[SgcSbTGHJe_8cDWUgLJ3
+r1
+31
+IXWh<UAfC18JcMX3?X4QCS2
+R3
+w1593952465
+8C:/Users/JustinSong/Desktop/p3/pc.v
+FC:/Users/JustinSong/Desktop/p3/pc.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 Q0IJQ`998d5jPKm>Xih<L3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/pc.v|
+!s108 1593971531.865000
+!s107 C:/Users/JustinSong/Desktop/p3/pc.v|
+vSB
+IR4kFPQ;4G`_Ezh>Mz]kg82
+V9BQV:SRk;<J9[G>o@U[fl1
+R3
+w1593865158
+8C:/Users/JustinSong/Desktop/p3/SB.v
+FC:/Users/JustinSong/Desktop/p3/SB.v
+L0 1
+R1
+r1
+31
+R2
+n@s@b
+!s100 ]V]GECS:C<_I[2Y2Kniz83
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/SB.v|
+!s108 1593951842.212000
+!s107 C:/Users/JustinSong/Desktop/p3/SB.v|
+!i10b 1
+!s85 0
+vTC
+I@4Q7?a4c3U9>BUY^5QDmG1
+V]f2UojA3FJF[cE@EJj0E^2
+R3
+w1593933934
+Z12 8C:/Users/JustinSong/Desktop/p3/TC.v
+Z13 FC:/Users/JustinSong/Desktop/p3/TC.v
+L0 1
+R1
+r1
+31
+Z14 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/TC.v|
+R2
+n@t@c
+Z15 !s107 C:/Users/JustinSong/Desktop/p3/TC.v|
+!s100 RT4Xdkj8cgk81=l24lIel3
+!s108 1593951111.797000
+!i10b 1
+!s85 0
+vtest
+Vk<3<[f=78GX=_HO53D;7>3
+r1
+31
+IJ:?JVcUfGYcIzm8gD:bZj2
+R3
+w1593957175
+8C:/Users/JustinSong/Desktop/p3/test.v
+FC:/Users/JustinSong/Desktop/p3/test.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 2hIDI2_FB>MOa:cE?BMPW1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/JustinSong/Desktop/p3/test.v|
+!s108 1593971534.564000
+!s107 C:/Users/JustinSong/Desktop/p3/test.v|
+vtimer
+!i10b 1
+VHoJHon:;]oCf`hmRjfh[c2
+r1
+!s85 0
+31
+IKd78727CDXad`Mz_TCI5P2
+R3
+w1593964125
+R12
+R13
+L0 1
+R1
+R14
+R2
+R15
+!s100 7lQOU4Q^iIfX24C20D_9M2
+!s108 1593971532.913000

@@ -1,0 +1,333 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Desktop\project1\simulation\modelsim
+vALU
+IH12FZlKRBeEOjX6C8IGgI2
+V4VJ1[ZX>@3ng5_^3T0DG50
+Z1 dD:\Desktop\project1\simulation\modelsim
+w1655739729
+8D:/Desktop/project1/ALU.v
+FD:/Desktop/project1/ALU.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/Desktop/project1 -O0
+n@a@l@u
+!i10b 1
+!s100 LF^82=LUg<R5i>2kdmA8^1
+!s85 0
+!s108 1656661130.423000
+!s107 D:/Desktop/project1/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/ALU.v|
+!s101 -O0
+vController
+IJN84?A=d`>Rf@0`E`7;:@3
+Vn9C4nB3e7f=@@UD<MBLY03
+R1
+w1655860845
+8D:/Desktop/project1/Controller.v
+FD:/Desktop/project1/Controller.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@controller
+!i10b 1
+!s100 ]ho8_;DH`_;C1cRc9h?E51
+!s85 0
+!s108 1656661130.355000
+!s107 D:/Desktop/project1/Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/Controller.v|
+!s101 -O0
+vDM
+I]kTiS[]AQYEPne>`^^6oZ1
+VI5?g1;]BeY@Szii`[:M^62
+R1
+w1655739930
+8D:/Desktop/project1/DM.v
+FD:/Desktop/project1/DM.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@d@m
+!i10b 1
+!s100 0WbP8I8Wj=9z>;Nf28koV0
+!s85 0
+!s108 1656661130.295000
+!s107 D:/Desktop/project1/DM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/DM.v|
+!s101 -O0
+vEXT
+IeFznEWa_:2TO6iZFYmNhk3
+VnC05<O9dRZUTD4NY]2``A0
+R1
+w1655740025
+8D:/Desktop/project1/EXT.v
+FD:/Desktop/project1/EXT.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@e@x@t
+!i10b 1
+!s100 WRAY9[O1eE;ioQh8z8R4?0
+!s85 0
+!s108 1656661130.230000
+!s107 D:/Desktop/project1/EXT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/EXT.v|
+!s101 -O0
+vGPR
+Iz;;gT2m[jcNYT[mA@Bo_81
+Va2Ke>IIC7cVcVaPKghN;l3
+R1
+w1655639333
+8D:/Desktop/project1/GPR.v
+FD:/Desktop/project1/GPR.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@g@p@r
+!i10b 1
+!s100 [=FciWUKgO3TFO@A^DWE]3
+!s85 0
+!s108 1656661130.165000
+!s107 D:/Desktop/project1/GPR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/GPR.v|
+!s101 -O0
+vim_1k
+I]Ec0JbC?Y1`n9n:Zn`DT01
+VhWmVPd4oE5A1Xkle@lUIl2
+R1
+w1655810894
+8D:/Desktop/project1/im_1k.v
+FD:/Desktop/project1/im_1k.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 7[azQzZdhLdGTeohoSZ=d1
+!s85 0
+!s108 1656661130.779000
+!s107 D:/Desktop/project1/im_1k.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/im_1k.v|
+!s101 -O0
+vIR
+I5D^UVGnBhU9]^XI3XQg4A1
+VJzZ>OikG7:^OPT7R[X]D@2
+R1
+w1655777196
+8D:/Desktop/project1/IR.v
+FD:/Desktop/project1/IR.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@i@r
+!i10b 1
+!s100 c7GkfBZnbVDehBQN:j`693
+!s85 0
+!s108 1656661130.101000
+!s107 D:/Desktop/project1/IR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/IR.v|
+!s101 -O0
+vlb
+I<J6G_OOeXa73:1=D6;6_]2
+V1U_djN4I>z7NO8e<W@W<V0
+R1
+w1655778135
+8D:/Desktop/project1/lb.v
+FD:/Desktop/project1/lb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 1g4Ij@Z3ERBGJcehjQl9m0
+!s85 0
+!s108 1656661130.039000
+!s107 D:/Desktop/project1/lb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/lb.v|
+!s101 -O0
+vmips
+IR<?>bzA8mU10FNz6WCdaA3
+V^lO[ZOI0I1e8M8GJjI9B:3
+R1
+w1655818524
+8D:/Desktop/project1/mips.v
+FD:/Desktop/project1/mips.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 gQc=gkcbfEdGa9?VPl`jT2
+!s85 0
+!s108 1656661129.975000
+!s107 D:/Desktop/project1/mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/mips.v|
+!s101 -O0
+vNPC
+IUj[=VPicRMXoK;lX]5K0U1
+VOQ^2RTGo5NZzAcFhfmk?i0
+R1
+w1655778031
+8D:/Desktop/project1/NPC.v
+FD:/Desktop/project1/NPC.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@n@p@c
+!i10b 1
+!s100 8z5`KgX=f2c804VJdkokX3
+!s85 0
+!s108 1656661129.914000
+!s107 D:/Desktop/project1/NPC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/NPC.v|
+!s101 -O0
+vPC
+I`<1Pmf_3o3MLgclYkU?kb0
+Vez4;Ra>?NE_hAblOcMF:=3
+R1
+w1655778040
+8D:/Desktop/project1/PC.v
+FD:/Desktop/project1/PC.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@p@c
+!i10b 1
+!s100 Ad^lc=EH[>=SaiOdTWL8a2
+!s85 0
+!s108 1656661129.850000
+!s107 D:/Desktop/project1/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/PC.v|
+!s101 -O0
+vrega
+I2f4ZhSJE33_;mBzV34V8L3
+V>Oic<PEdcKCB0z??<@G[U0
+R1
+Z5 w1655347833
+8D:/Desktop/project1/rega.v
+FD:/Desktop/project1/rega.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 X=3J[@liR]6dF>ZOEU7l?1
+!s85 0
+!s108 1656661130.489000
+!s107 D:/Desktop/project1/rega.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/rega.v|
+!s101 -O0
+vregaluout
+ISJZ9]Hl3[:flb=_@eAbQ31
+VbLC2NKh1jEVcMRQkn@jEf2
+R1
+R5
+8D:/Desktop/project1/regaluout.v
+FD:/Desktop/project1/regaluout.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 e53MYBj@mz8jN[af`8mKl3
+!s85 0
+!s108 1656661130.673000
+!s107 D:/Desktop/project1/regaluout.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/regaluout.v|
+!s101 -O0
+vregb
+IEfOaZ;^EXO<MQhY<JFY530
+Vc:=5oJR?THeecD@NJbfL91
+R1
+R5
+8D:/Desktop/project1/regb.v
+FD:/Desktop/project1/regb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 FA?lK1hUhfN[_[Z:VE]XY0
+!s85 0
+!s108 1656661130.562000
+!s107 D:/Desktop/project1/regb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/regb.v|
+!s101 -O0
+vsb
+I>=0EnB5WH]6DlS[9MC;lG3
+V5fJKZSo_a`OUcaiK^HMM>3
+R1
+w1655778127
+8D:/Desktop/project1/sb.v
+FD:/Desktop/project1/sb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 05HW3Xfb;WC3Ycj>oiT5L1
+!s85 0
+!s108 1656661129.787000
+!s107 D:/Desktop/project1/sb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/sb.v|
+!s101 -O0
+vtest
+!i10b 1
+!s100 QQXhgh>CT1[_JTgBW90_:0
+IWEPLTG<YjbI^Q_kN3A=ZU1
+Vk<3<[f=78GX=_HO53D;7>3
+R1
+w1655739168
+8D:/Desktop/project1/test.v
+FD:/Desktop/project1/test.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1656661130.893000
+!s107 D:/Desktop/project1/test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/project1|D:/Desktop/project1/test.v|
+!s101 -O0
+R3
+R4

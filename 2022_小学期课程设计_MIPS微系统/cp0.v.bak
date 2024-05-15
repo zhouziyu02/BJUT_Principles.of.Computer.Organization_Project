@@ -1,0 +1,45 @@
+module CP0(clk,rst,Din,Dout,sel,Wen,EXLset,EXLclr,PC,EPCout,IRQ,HWint);
+  input clk,rst,EXLset,EXLclr,Wen; //Wen:if(MTC0) Wen=1
+  input [31:0]PC,Din;//Din:from GPR[rt](MTC0)
+  input [5:0]HWint;
+  input [4:0]sel;
+  output [31:0]EPCout,Dout; //Dout:to GPR[rt](MFC0)
+  output IRQ; //to CPU
+  reg [31:0]sr,cause,epc,prid;
+
+  always @(*)      
+  begin
+    cause[15:10]=cause[15:10]|HWint;
+    if(EXLclr)
+      begin
+        sr[1]=0;
+        cause[10]=0;
+      end
+    if(EXLset) 
+      sr[1]=1;
+  end
+
+  assign IRQ=|(cause[15:10] & sr[15:10]) & sr[1] & (!sr[0]);//HWint IM IE !EXL
+  assign EPCout=epc;
+  assign Dout=(sel==5'b01100)?sr    //MFC0
+             :(sel==5'b01101)?cause
+             :(sel==5'b01110)?epc
+             :(sel==5'b01111)?prid:Dout;
+  
+  always @ (posedge clk,posedge rst)
+  begin
+    if(rst)
+      begin
+        sr=0;cause=0;epc=0;prid=32'h20000714;
+      end
+    else
+      begin
+        if(Wen)    //MTC0
+          begin
+            if(sel==5'b01100) sr={16'b0,Din[15:10],8'b0,Din[1:0]};
+            if(sel==5'b01110) epc=Din;
+            if(EXLset) epc=PC;
+          end
+      end
+  end
+endmodule

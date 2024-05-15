@@ -1,0 +1,52 @@
+module timer(clk,we,devaddr,in,out,intreq);
+	input [31:0] in;
+	input clk,we;
+	input [1:0] devaddr;
+	output [31:0] out;
+	output intreq;
+
+	reg [31:0] ctrl;
+	reg [31:0] preset;
+	reg [31:0] count;
+	
+	assign out = (devaddr==2'b00)?ctrl:
+		     (devaddr==2'b01)?preset:
+		     (devaddr==2'b10)?count:
+	                     out;
+	
+	always@(posedge clk)
+	begin
+    if(we)
+    begin
+		  if(devaddr==2'b00)    ctrl=in;
+	    if(devaddr==2'b01) 
+		  begin
+	        preset=in;
+		      count=in;
+		  end
+	  end
+	end
+	
+	assign intreq=(ctrl[3] && ctrl[0] && (ctrl[2:1]==2'b00) && (count==0));
+	
+	always @(posedge clk)
+	begin
+	       if(ctrl[0])
+		begin
+		     case(ctrl[2:1])
+			2'b00:
+			      begin
+				if(count!=0)  count=count-1;
+				else  ctrl[0]=0;
+			      end
+			2'b01:
+			      begin
+				if(count!=0)  count=count-1;
+				else  count=preset;
+			      end
+		    endcase
+		end
+	end
+endmodule		                 
+
+

@@ -1,0 +1,8 @@
+module sb(busB, din, dout, sb_sel, sben);
+  input [31:0]busB, din;
+  input [1:0]sb_sel;
+  input sben;
+  output [31:0]dout;
+  
+  assign dout = !sben ? busB : sb_sel==0 ? {din[31:8], busB[7:0]} : sb_sel==1 ? {din[31:16], busB[15:8], din[7:0]} : sb_sel==2 ? {din[31:24], busB[23:16], din[15:0]} : {busB[31:24], din[23:0]};  
+endmodule

@@ -1,0 +1,34 @@
+module ALU(A,B,Zero,ALUctr,ALUout,OF,addi);
+  input [31:0]A;
+  input [31:0]B;
+  input [1:0]ALUctr;
+  input addi;
+  output reg [31:0]ALUout;
+  output reg OF;
+  output reg Zero;
+  always@(A or B or ALUctr)
+    begin
+      case(ALUctr)
+        2'b00:
+        begin
+          AlUout = A + B;
+          if((A[31] == B[31])&& (ALUout[31] == ~A[31]) && addi)
+            begin OF = 1;ALUout=32'b1;end
+          else OF = 0;
+        end
+        2'b01:begin ALUout = A - B; OF = 0;end
+        2'b10:begin ALUout = A | B; OF = 0;end
+        2'b11:ALUout = B;
+        default:OF = 0;
+        endcase
+  if(A==B)
+      Zero = 1;
+  else
+      Zero = 0;
+  end
+endmodule
+          
+          
+  
+
+

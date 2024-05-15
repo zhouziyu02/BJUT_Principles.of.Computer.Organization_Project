@@ -1,0 +1,46 @@
+module mips(clk, rst);
+  input  clk;   // clock
+  input  rst;   // reset
+  wire [31:0] npc;
+  wire [31:0] pc;
+  wire [31:0] ins;
+  wire ALUSrc,RegWrite,memwr,slt,ExtOp,Luisel,jal,addi;
+  wire [1:0] MemtoReg;
+  wire [1:0] RegDst;
+  wire [1:0] ALUctr;
+  wire [1:0] N_pcsel;
+  wire OF,Zero;
+  wire [31:0] busa;
+  wire [31:0] busb;
+  wire [31:0] busw;
+  wire [4:0]  rw;
+  wire [31:0]aluout;
+  wire [31:0]aluin;
+  wire [31:0]dout;
+  wire [31:0]Extout;
+  wire [31:0]slt_result;
+  parameter jalreg = 5'b11111;
+  parameter jrreg = 5'b11110;
+  Im_1k im(pc[9:0],ins);
+  pc pc_ (clk,npc,pc,rst);
+  GPR Gpr_(ins[25:21],ins[20:16],rw,RegWrite,busa,busb,clk,rst,busw);
+  EXT extender(ExtOp,ins[15:0],Extout,Luisel);
+  Dm_1k dm(aluout[9:0],busb,memwr,clk,dout);
+  npc nextpc(N_pcsel,ins,pc,npc,Zero,busa);
+  control ctrllor(ins[5:0],ins[31:26],OF,RegDst,ALUSrc,MemtoReg,RegWrite,memwr,ExtOp,ALUctr,N_pcsel,slt,jal,addi,Luisel);
+  ALU alu_(busa,aluin,Zero,ALUctr,aluout,OF,addi);
+  MUX_32_3 Memsel(MemtoReg,slt_result,dout,{pc+3'b100},busw);
+  MUX_5 regctr(RegDst,ins[20:16],ins[15:11],jalreg,jrreg,rw);
+  MUX_32_2 sltsel(slt,aluout,{31'b0,aluout[31]},slt_result);
+  MUX_32_2 ALUsel(ALUSrc,busb,Extout,aluin);
+endmodule 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

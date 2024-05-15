@@ -1,0 +1,106 @@
+D:/modelsim/modelsim/PCO2/ALU.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/ALU.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/modelsim/modelsim/PCO2/IR.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/IR.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IR
+
+Top level modules:
+	IR
+
+} {} {}} D:/modelsim/modelsim/PCO2/PC.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/PC.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} D:/modelsim/modelsim/PCO2/Controller.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/Controller.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} D:/modelsim/modelsim/PCO2/rega.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/rega.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module rega
+
+Top level modules:
+	rega
+
+} {} {}} D:/modelsim/modelsim/PCO2/regb.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/regb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module regb
+
+Top level modules:
+	regb
+
+} {} {}} D:/modelsim/modelsim/PCO2/regaluout.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/regaluout.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module regaluout
+
+Top level modules:
+	regaluout
+
+} {} {}} D:/modelsim/modelsim/PCO2/GPR.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/GPR.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPR
+
+Top level modules:
+	GPR
+
+} {} {}} D:/modelsim/modelsim/PCO2/sb.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/sb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sb
+
+Top level modules:
+	sb
+
+} {} {}} D:/modelsim/modelsim/PCO2/lb.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/lb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module lb
+
+Top level modules:
+	lb
+
+} {} {}} D:/modelsim/modelsim/PCO2/im_1k.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/im_1k.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}} D:/modelsim/modelsim/PCO2/NPC.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/NPC.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} D:/modelsim/modelsim/PCO2/EXT.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/EXT.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} D:/modelsim/modelsim/PCO2/mips.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} D:/modelsim/modelsim/PCO2/DM.v {1 {vlog -work work -vopt D:/modelsim/modelsim/PCO2/DM.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}}

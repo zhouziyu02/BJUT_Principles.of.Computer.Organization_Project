@@ -1,0 +1,308 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\modelsim\modelsim\PCO
+T_opt
+Vf99W?RQ31Xa8O3d:LVZQ@2
+04 4 4 work test fast 0
+=1-5405dbdb3145-60e64157-189-24c8
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1a;51
+Z1 dD:\modelsim\modelsim\PCO
+vALU
+V4VJ1[ZX>@3ng5_^3T0DG50
+r1
+31
+I]6=nMT_:Cg5863K@DEAZ80
+Z2 dD:\modelsim\modelsim\PCO2
+w1625711223
+8D:/modelsim/modelsim/PCO2/ALU.v
+FD:/modelsim/modelsim/PCO2/ALU.v
+L0 1
+Z3 OE;L;10.1a;51
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@a@l@u
+!i10b 1
+!s85 0
+!s100 e6=m40[X?H?A5d;dBzoSC3
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/ALU.v|
+!s108 1626201726.761000
+!s107 D:/modelsim/modelsim/PCO2/ALU.v|
+vController
+Vn9C4nB3e7f=@@UD<MBLY03
+r1
+31
+IEofShE4eg9QF60Y^<blJ22
+R2
+w1625710894
+8D:/modelsim/modelsim/PCO2/Controller.v
+FD:/modelsim/modelsim/PCO2/Controller.v
+L0 1
+R3
+R4
+n@controller
+!i10b 1
+!s85 0
+!s100 E3FF[?UK=nW4EdGX3@8<E3
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/Controller.v|
+!s108 1626201727.148000
+!s107 D:/modelsim/modelsim/PCO2/Controller.v|
+vdm_1k
+VHb_zdC1410ZkAGc[T]_4^2
+r1
+31
+IW<dndb[MQJn^SQZc1l;[X2
+R2
+w1625121332
+8D:/modelsim/modelsim/PCO2/DM.v
+FD:/modelsim/modelsim/PCO2/DM.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 @6e7mbP95lL]FcC_m]bb@2
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/DM.v|
+!s108 1626201726.814000
+!s107 D:/modelsim/modelsim/PCO2/DM.v|
+vEXT
+VnC05<O9dRZUTD4NY]2``A0
+r1
+31
+I8@3T2h8RW38Ri<3o=HEI;2
+R2
+w1624948621
+8D:/modelsim/modelsim/PCO2/EXT.v
+FD:/modelsim/modelsim/PCO2/EXT.v
+L0 1
+R3
+R4
+n@e@x@t
+!i10b 1
+!s85 0
+!s100 K]A;Z:N4IOzMeD18O[:OS3
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/EXT.v|
+!s108 1626201726.685000
+!s107 D:/modelsim/modelsim/PCO2/EXT.v|
+vGPR
+Va2Ke>IIC7cVcVaPKghN;l3
+r1
+31
+IPSc;cd^TaP`jV1C4f;2Z72
+R2
+w1624953007
+8D:/modelsim/modelsim/PCO2/GPR.v
+FD:/modelsim/modelsim/PCO2/GPR.v
+L0 1
+R3
+R4
+n@g@p@r
+!i10b 1
+!s85 0
+!s100 jD]dQ5zgmNL=E`JknS13F0
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/GPR.v|
+!s108 1626201726.631000
+!s107 D:/modelsim/modelsim/PCO2/GPR.v|
+vim_1k
+VhWmVPd4oE5A1Xkle@lUIl2
+r1
+31
+IHOmO<A_HSFhh^ToA>UdQA2
+R2
+w1625702933
+8D:/modelsim/modelsim/PCO2/im_1k.v
+FD:/modelsim/modelsim/PCO2/im_1k.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 P`<FFHVR[2BDQ5LQjz7]S3
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/im_1k.v|
+!s108 1626201726.468000
+!s107 D:/modelsim/modelsim/PCO2/im_1k.v|
+vIR
+VJzZ>OikG7:^OPT7R[X]D@2
+r1
+31
+I_W:7oDG@BZ56TIN9B7_5g0
+R2
+w1625111752
+8D:/modelsim/modelsim/PCO2/IR.v
+FD:/modelsim/modelsim/PCO2/IR.v
+L0 1
+R3
+R4
+n@i@r
+!i10b 1
+!s85 0
+!s100 egOQhVo;?GZ[cQlTSJ3Xh0
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/IR.v|
+!s108 1626201726.522000
+!s107 D:/modelsim/modelsim/PCO2/IR.v|
+vlb
+V1U_djN4I>z7NO8e<W@W<V0
+r1
+31
+I9Wbk3<>nLbLEEXCmhoDn>3
+R2
+w1625056231
+8D:/modelsim/modelsim/PCO2/lb.v
+FD:/modelsim/modelsim/PCO2/lb.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 2F]_]Ya8BKY_b>3AJHReQ2
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/lb.v|
+!s108 1626201727.038000
+!s107 D:/modelsim/modelsim/PCO2/lb.v|
+vmips
+V^lO[ZOI0I1e8M8GJjI9B:3
+r1
+31
+Ih98FDEEPRf0YK:McB;G`[1
+R2
+w1625707172
+8D:/modelsim/modelsim/PCO2/mips.v
+FD:/modelsim/modelsim/PCO2/mips.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 c?1W]hYSYglAOBN2liZ[L2
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/mips.v|
+!s108 1626201727.203000
+!s107 D:/modelsim/modelsim/PCO2/mips.v|
+vNPC
+VOQ^2RTGo5NZzAcFhfmk?i0
+r1
+31
+I_Ekn>>G@HGEZ^EZi@CXmo1
+R2
+w1625118225
+8D:/modelsim/modelsim/PCO2/NPC.v
+FD:/modelsim/modelsim/PCO2/NPC.v
+L0 1
+R3
+R4
+n@n@p@c
+!i10b 1
+!s85 0
+!s100 31z`?0VS[EReV2]MX;HeY2
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/NPC.v|
+!s108 1626201726.408000
+!s107 D:/modelsim/modelsim/PCO2/NPC.v|
+vPC
+Vez4;Ra>?NE_hAblOcMF:=3
+r1
+31
+Ii>4C^?TGd55deiR@OT2LH2
+R2
+w1625046857
+8D:/modelsim/modelsim/PCO2/PC.v
+FD:/modelsim/modelsim/PCO2/PC.v
+L0 1
+R3
+R4
+n@p@c
+!i10b 1
+!s85 0
+!s100 `5lQCGleMcKWaEbh`RoZm3
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/PC.v|
+!s108 1626201726.576000
+!s107 D:/modelsim/modelsim/PCO2/PC.v|
+vrega
+V>Oic<PEdcKCB0z??<@G[U0
+r1
+31
+ITQonI01n@<NZBi0I<]dFW3
+R2
+w1625048108
+8D:/modelsim/modelsim/PCO2/rega.v
+FD:/modelsim/modelsim/PCO2/rega.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 m9Kn_0YEmnEUI6c4ce]d23
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/rega.v|
+!s108 1626201726.875000
+!s107 D:/modelsim/modelsim/PCO2/rega.v|
+vregaluout
+!i10b 1
+VbLC2NKh1jEVcMRQkn@jEf2
+r1
+!s85 0
+31
+IHO2Y5^jmoXkMYHnnFmIj12
+R2
+w1625048261
+8D:/modelsim/modelsim/PCO2/regaluout.v
+FD:/modelsim/modelsim/PCO2/regaluout.v
+L0 1
+R3
+R4
+!s100 ]QD522ddae0M5b]^@TH>E3
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/regaluout.v|
+!s108 1626201726.985000
+!s107 D:/modelsim/modelsim/PCO2/regaluout.v|
+vregb
+Vc:=5oJR?THeecD@NJbfL91
+r1
+31
+I4^XZ2PcgWbk=hOnYoVV6N0
+R2
+w1625048137
+8D:/modelsim/modelsim/PCO2/regb.v
+FD:/modelsim/modelsim/PCO2/regb.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 UBZoZ<29hD?0AN`6i9GhS0
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/regb.v|
+!s108 1626201726.932000
+!s107 D:/modelsim/modelsim/PCO2/regb.v|
+vsb
+V5fJKZSo_a`OUcaiK^HMM>3
+r1
+31
+I2SX?UM;QYJaN]oJ<1O6TG0
+R2
+w1625120841
+8D:/modelsim/modelsim/PCO2/sb.v
+FD:/modelsim/modelsim/PCO2/sb.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 ;^G]:F@m:9WC[SR@<nO8D0
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/sb.v|
+!s108 1626201727.093000
+!s107 D:/modelsim/modelsim/PCO2/sb.v|
+vtest
+Vk<3<[f=78GX=_HO53D;7>3
+r1
+31
+IH2S<C[kZa3VTaSnBmgRzC0
+R2
+w1626201722
+8D:/modelsim/modelsim/PCO2/test.v
+FD:/modelsim/modelsim/PCO2/test.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|D:/modelsim/modelsim/PCO2/test.v|
+!s100 m_>Q3O[J3Jm7D=HL_g7>m3
+!s108 1626201727.256000
+!s107 D:/modelsim/modelsim/PCO2/test.v|

@@ -1,0 +1,27 @@
+module npc(sel,ins,pc,npc,zero,JRaddr);
+  input [1:0]sel;
+  input zero;
+  input [31:0]JRaddr;
+  input [31:0]pc;
+  input [31:0] ins; 
+  wire [31:0] pcadd4;
+  assign pcadd4=pc+3'b100;
+  wire [31:0] beqaddr;
+  assign beqaddr={{16{ins[15]}},ins[15:0]};
+  output reg [31:0] npc;
+  always@(sel or zero or pc)
+  begin
+    case(sel)
+      2'b00:npc = pcadd4;
+      2'b01:
+      begin 
+       if(zero) npc = pcadd4 + beqaddr*3'b100;
+       else npc = pcadd4;
+      end
+      2'b10:npc = {pcadd4[31:28],ins[25:0],2'b00};
+      2'b11:npc = JRaddr;
+    endcase
+  end
+endmodule
+    
+

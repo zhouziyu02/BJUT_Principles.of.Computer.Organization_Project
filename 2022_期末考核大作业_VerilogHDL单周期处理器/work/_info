@@ -1,0 +1,291 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Modelsim\examples
+T_opt
+V7ElBHJf@AHZEO<5QIgbnE3
+04 6 4 work testp1 fast 0
+=1-b025aa28860d-5ef82d51-22e-180
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1a;51
+Z1 dD:\Modelsim\examples
+vALU
+VN0bV5ehkehkPADW2fRh`I0
+r1
+31
+IZSIS`;MzSY?ZcZ=ViN3M?0
+Z2 dC:\Users\StephenJOJO\Desktop\p1_1.0
+w1593322097
+8C:/Users/StephenJOJO/Desktop/p1_1.0/ALU.v
+FC:/Users/StephenJOJO/Desktop/p1_1.0/ALU.v
+L0 1
+Z3 OE;L;10.1a;51
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@a@l@u
+!i10b 1
+!s85 0
+!s100 61jk4`1`P?1zC0l>zc`Ez2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/ALU.v|
+!s108 1593351843.337000
+!s107 C:/Users/StephenJOJO/Desktop/p1_1.0/ALU.v|
+vcontrol
+VE]cZLMSS`KYLE4`URVli83
+r1
+31
+ICmn2I7;enUgIO`>4b_WTb2
+R2
+w1593162865
+8C:/Users/StephenJOJO/Desktop/p1_1.0/ctr.v
+FC:/Users/StephenJOJO/Desktop/p1_1.0/ctr.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 iWe:gnAH;0kGPX`91KCWS3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/ctr.v|
+!s108 1593351843.417000
+!s107 C:/Users/StephenJOJO/Desktop/p1_1.0/ctr.v|
+vdm_1k
+VHb_zdC1410ZkAGc[T]_4^2
+r1
+31
+I11J3B2bXnFALoK`0]T8JA0
+R2
+w1593351622
+Z5 8C:/Users/StephenJOJO/Desktop/p1_1.0/DM.v
+Z6 FC:/Users/StephenJOJO/Desktop/p1_1.0/DM.v
+L0 1
+R3
+Z7 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/DM.v|
+R4
+Z8 !s107 C:/Users/StephenJOJO/Desktop/p1_1.0/DM.v|
+!i10b 1
+!s85 0
+!s100 R4VP_zADNe^g@46N=lQiA3
+!s108 1593351844.043000
+vDm_1k
+VCAHo=Yh2ZihNO[7^=IjHj1
+r1
+31
+IWRc]>[Bb[[zWmg4Z>M;PH1
+R2
+w1593322283
+R5
+R6
+L0 1
+R3
+R7
+R4
+n@dm_1k
+R8
+!s100 lQnK39AK^X@kDz=>iTG_`0
+!s108 1593322804.950000
+!i10b 1
+!s85 0
+vEXT
+VFHzOi]oVWTi1dR6i<TnfZ1
+r1
+31
+I[ZQ:9=g>UOGZ`nzaeX;X;0
+R2
+w1593322187
+8C:/Users/StephenJOJO/Desktop/p1_1.0/EXT.v
+FC:/Users/StephenJOJO/Desktop/p1_1.0/EXT.v
+L0 1
+R3
+R4
+n@e@x@t
+!i10b 1
+!s85 0
+!s100 472JDHIQHn?M6QcBb<A:k0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/EXT.v|
+!s108 1593351843.488000
+!s107 C:/Users/StephenJOJO/Desktop/p1_1.0/EXT.v|
+vGPR
+V<PTZ2WzP?UOFWPdUlD<V12
+r1
+31
+I3ijIzj2dI30AdlK9U7n2d0
+R2
+w1593165655
+8C:/Users/StephenJOJO/Desktop/p1_1.0/GPR.v
+FC:/Users/StephenJOJO/Desktop/p1_1.0/GPR.v
+L0 1
+R3
+R4
+n@g@p@r
+!i10b 1
+!s85 0
+!s100 cYKEkY4A]jmOli48eGVDA0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/GPR.v|
+!s108 1593351843.857000
+!s107 C:/Users/StephenJOJO/Desktop/p1_1.0/GPR.v|
+vim_1k
+VhWmVPd4oE5A1Xkle@lUIl2
+r1
+31
+I[mcB:@^4aFQ:3=n_UWU?;1
+R2
+w1593351795
+Z9 8C:/Users/StephenJOJO/Desktop/p1_1.0/im.v
+Z10 FC:/Users/StephenJOJO/Desktop/p1_1.0/im.v
+L0 1
+R3
+Z11 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/im.v|
+R4
+Z12 !s107 C:/Users/StephenJOJO/Desktop/p1_1.0/im.v|
+!i10b 1
+!s85 0
+!s100 5cUbXfD7a8kNQmb6@<[Q[3
+!s108 1593351843.553000
+vIm_1k
+I]KllbCR?:Y_?iJF5Scd7F2
+VIcSSfi;<ULEU4N:25;4kb2
+R2
+w1593351738
+R9
+R10
+L0 1
+R3
+r1
+31
+R11
+R4
+n@im_1k
+R12
+!s100 jVczObb?i1jI<lC9;nd_S2
+!s108 1593351738.295000
+!i10b 1
+!s85 0
+vmips
+V[iaW2OQkbKDF@?f37Y:822
+r1
+31
+IXR[?USe@4MIam]P1GbH@82
+R2
+w1593351845
+8C:/Users/StephenJOJO/Desktop/p1_1.0/mips.v
+FC:/Users/StephenJOJO/Desktop/p1_1.0/mips.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 =3QW:3@[hR^<V0HHCJlQK3
+!s108 1593351845.129000
+!s107 C:/Users/StephenJOJO/Desktop/p1_1.0/mips.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/mips.v|
+vMUX_32_2
+!i10b 1
+VkOMTQb_O:MYZdhO<7MMQb0
+r1
+!s85 0
+31
+IU>VA7oSz2KfbOjQBE2G5Y2
+R2
+Z13 w1593157871
+Z14 8C:/Users/StephenJOJO/Desktop/p1_1.0/MUX.v
+Z15 FC:/Users/StephenJOJO/Desktop/p1_1.0/MUX.v
+L0 1
+R3
+Z16 !s108 1593351843.774000
+Z17 !s107 C:/Users/StephenJOJO/Desktop/p1_1.0/MUX.v|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/MUX.v|
+R4
+n@m@u@x_32_2
+!s100 QBoca2WnEe]5ID?7XmogJ0
+vMUX_32_3
+V^S>5G1:[?ElngmQR:m=]z3
+r1
+31
+IZ6WI51<a]cNGc`QO1ceam3
+R2
+R13
+R14
+R15
+L0 30
+R3
+R16
+R17
+R18
+R4
+n@m@u@x_32_3
+!i10b 1
+!s85 0
+!s100 5nSzRjLe5T`Y0JXDS3EMn3
+vMUX_5
+VVl[k`XA=]o:QV58][hgXh0
+r1
+31
+Ib6FCFHj:IDe93DX6EiCOL2
+R2
+R13
+R14
+R15
+L0 14
+R3
+R16
+R17
+R18
+R4
+n@m@u@x_5
+!i10b 1
+!s85 0
+!s100 EfFlC0=NkGgYcN0IA6BMN0
+vnpc
+VBk^JE^YOV<I3^;XX8[^_J3
+r1
+31
+I11J5<CU@Ka^hS7H;4lMPA1
+R2
+w1593322523
+8C:/Users/StephenJOJO/Desktop/p1_1.0/npc.v
+FC:/Users/StephenJOJO/Desktop/p1_1.0/npc.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 NMdHlYSPaF^g64n^5H72a2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/npc.v|
+!s108 1593351843.702000
+!s107 C:/Users/StephenJOJO/Desktop/p1_1.0/npc.v|
+vpc
+Vkk;UYjlEESiYCh4;OeiAU2
+r1
+31
+IBXYAPmPYS=Je<el9Z=0h=1
+R2
+w1593322551
+8C:/Users/StephenJOJO/Desktop/p1_1.0/pc.v
+FC:/Users/StephenJOJO/Desktop/p1_1.0/pc.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 b08KD_fE4EPH2jcVA423<1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/pc.v|
+!s108 1593351843.629000
+!s107 C:/Users/StephenJOJO/Desktop/p1_1.0/pc.v|
+vtestp1
+VVIWzQ3jSbmWdkS0>Yn7b<3
+r1
+31
+IJkQaZEUTlXR7@T`4aId533
+R2
+w1593164385
+8C:/Users/StephenJOJO/Desktop/p1_1.0/testp1.v
+FC:/Users/StephenJOJO/Desktop/p1_1.0/testp1.v
+L0 1
+R3
+R4
+!i10b 1
+!s85 0
+!s100 D`3=R[E`oR?Y:38@6?WF=0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/StephenJOJO/Desktop/p1_1.0/testp1.v|
+!s108 1593351843.947000
+!s107 C:/Users/StephenJOJO/Desktop/p1_1.0/testp1.v|

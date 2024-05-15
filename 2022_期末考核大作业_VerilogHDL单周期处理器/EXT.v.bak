@@ -1,0 +1,17 @@
+module EXT(ExtOp, imma, immb, Luisel);
+  input Luisel;
+  input ExtOp;
+  input [15:0]imma;
+  output reg[31:0]immb;
+  always@(Luisel or imma or ExtOp)
+  begin
+    if(~extop)
+      immb = {{16{1'b0}},imma};
+    else
+      immb = {{16{imma[15]}},imma};
+    if(luisel)
+      immb = {immb,{16{1'b0}}};
+  end
+endmodule
+
+

@@ -1,0 +1,16 @@
+module test;
+  reg clk,reset;
+  reg [31:0]in;
+  mach ww(clk,reset,in);
+  initial
+  begin
+    in=32'h5;clk=1;reset=0;
+    #1 reset=1;
+    #1 reset=0;
+    $readmemh("main.txt",ww.m1.i1.ir,'h1000);
+    $readmemh("subr.txt",ww.m1.i1.ir,'h0180);
+    #12000 in=32'h66;
+  end
+  always
+    #30 clk=~clk;
+endmodule

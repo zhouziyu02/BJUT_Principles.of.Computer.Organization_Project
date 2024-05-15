@@ -1,0 +1,32 @@
+module mips(clk, rst);
+  input clk;
+  input rst;
+  wire [31:0] insout, nxtpc, curpc, pc_add4, wd, sbout, lbout;
+  wire [31:0] busA, busB, B, extout, alu_out, dmout, busAout, busBout, alu_outout;
+  wire [25:0] imm26;
+  wire [15:0] imm16;
+  wire [5:0] op, func;
+  wire [4:0] rs, rt, rd, rw;
+  wire [1:0] reg_sel, wd_sel, npc_sel, ext_op, alu_op, sb_sel, lb_sel;
+  wire overflow, zero, we, regwrite, alu_sel, addi, slt, irwr, pcwr, sben, lben;
+  
+  assign rw = (reg_sel==0) ? rt : (reg_sel==1) ? rd : 5'b11111;
+  assign wd = (wd_sel==0) ? alu_outout : (wd_sel==1) ? lbout : pc_add4;
+  assign B = alu_sel ? extout : busBout;
+  
+  
+  ALU alu1(busAout, B, alu_op, zero, alu_out, overflow, slten, addien);
+  Controller con1(clk, op, func, reg_sel, alu_op, wd_sel, we, npc_sel, ext_op, regwrite, alu_sel, addien, slten, lben, sben, pcwr, irwr, zero);
+  sb sb1(busBout, dmout, sbout, alu_outout[1:0], sben);
+  lb lb1(dmout, alu_outout[1:0], lbout, lben);
+  dm_1k dm1(alu_outout[9:0], sbout, we, clk, dmout);
+  EXT ext1(imm26[15:0], extout, ext_op);
+  GPR gpr1(clk, rst, rs, rt, rw, wd, regwrite, busA, busB, overflow);
+  im_1k im1(curpc[9:0], insout);
+  NPC npc1(curpc, imm26, busA, npc_sel, zero, nxtpc, pc_add4);
+  PC pc1(clk, rst, nxtpc, curpc, pcwr);
+  IR ir1(clk, insout, rs, rt, rd, func, op, imm26, irwr);
+  rega rega1(clk, busA, busAout);
+  regb regb1(clk, busB, busBout);
+  regaluout regaluout1(clk, alu_out, alu_outout);
+endmodule

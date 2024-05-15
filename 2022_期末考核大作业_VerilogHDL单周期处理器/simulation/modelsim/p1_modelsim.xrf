@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/im.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/testp1.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/pc.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/npc.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/MUX.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/mips.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/GPR.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/EXT.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/dm.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/ctr.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/ALU.v
+source_file = 1, D:/Desktop/p1_1.0/p1_1.0/db/p1.cbx.xml
+source_file = 1, c:/users/zzy/desktop/p1_1.0/p1_1.0/p1-test.txt
+design_name = mips
+instance = comp, \clk~input\, clk~input, mips, 1
+instance = comp, \rst~input\, rst~input, mips, 1

@@ -1,0 +1,65 @@
+module mips(clk,reset,rdd,wdin,praddr,wecpu,cp0rd,cp0addr,cp0we,exlset,exlclr,pc4,epcin,intreq);
+  input clk,reset,intreq;
+  input [31:0]rdd,epcin,cp0rd;
+  output [31:0] wdin,praddr,pc4;
+  output wecpu,cp0we,exlset,exlclr;
+  output [4:0]cp0addr;
+  
+  wire [31:0]sbin,dinn,extout,irout,alub,dmout,aluout,dou,aluou,dout,busw,rega,regb,busa,busb,npc,pcout,imout,pc4;
+  wire [2:0]npcsel,memtoreg;
+  wire [1:0]regdst,aluctr,luisel;
+  wire [4:0]rs,rt,rd,rw;
+  wire [5:0]op,func;
+  wire [31:0]imm32;
+  wire [15:0]imm;
+  wire [31:0]lbout;
+  wire isdev,memwr;
+  
+  assign isdev=($signed(praddr)>=32'h0000_7f00);
+  assign wdin=busb;
+  assign praddr=aluout;
+  assign cp0addr=rd;
+  assign wecpu=(isdev && memwr);
+  
+  IMr ir1(clk,irwr,imout,irout);
+  EXT el(imm,extop,extout,luisel);
+  ALU al(busa,alub,aluctr,aluou,zero,overflow,addi);
+  A aluo(clk,aluou,aluout);
+  dm dl(clk,dinn,(!isdev && memwr),aluout[13:0],dou);
+  A dr(clk,dout,dmout);
+  GPR r1(clk,reset,regwr,rs,rt,rw,busw,rega,regb);
+  A a(clk,rega,busa);
+  A b(clk,regb,busb);
+  pc p1(clk,reset,pcwr,npc,pcout);
+  im i1(pcout[12:0],imout);
+  npc n1(imm32,busa,npcsel,zero,pcout,npc,epcin);
+  cu c1(clk,reset,rs,intreq,lb,sb,zero,op,func,overflow,pcwr,irwr,regdst,alusrc,regwr,memwr,aluctr,npcsel,extop,memtoreg,cp0we,exlclr,exlset,luisel);
+  
+  assign lbout={{24{dou[7]}},dou[7:0]};
+  assign dout=(lb)?lbout:dou;
+  assign pc4=pcout;
+  
+  assign sbin={dou[31:8],busb[7:0]};
+  assign dinn=(sb)?sbin:busb;
+  
+  assign op=irout[31:26];
+  assign func=irout[5:0];
+  assign imm32=irout;
+  assign imm=irout[15:0];
+  assign rs=irout[25:21];
+  assign rt=irout[20:16];
+  assign rd=irout[15:11];
+  
+  assign alub=(alusrc)?extout:busb;
+  assign rw=(regdst==2'b00)?rt:
+            (regdst==2'b01)?rd:
+            (regdst==2'b11)?5'h1f:
+            (regdst==2'b11)?5'h1e:rw;
+  
+  assign busw=(memtoreg==3'b000)?aluout:
+              (memtoreg==3'b001)?(isdev)?rdd:dmout:
+              (memtoreg==3'b010)?pc4:
+              (memtoreg==3'b011)?1:
+              (memtoreg==3'b100)?cp0rd:busw;
+endmodule
+    

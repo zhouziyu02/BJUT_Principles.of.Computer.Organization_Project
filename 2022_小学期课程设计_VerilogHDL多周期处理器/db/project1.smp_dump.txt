@@ -1,0 +1,13 @@
+
+State Machine - |mips|Controller:con1|fsm
+Name fsm.s9 fsm.s8 fsm.s7 fsm.s6 fsm.s5 fsm.s4 fsm.s3 fsm.s2 fsm.s1 fsm.0000 
+fsm.0000 0 0 0 0 0 0 0 0 0 0 
+fsm.s1 0 0 0 0 0 0 0 0 1 1 
+fsm.s2 0 0 0 0 0 0 0 1 0 1 
+fsm.s3 0 0 0 0 0 0 1 0 0 1 
+fsm.s4 0 0 0 0 0 1 0 0 0 1 
+fsm.s5 0 0 0 0 1 0 0 0 0 1 
+fsm.s6 0 0 0 1 0 0 0 0 0 1 
+fsm.s7 0 0 1 0 0 0 0 0 0 1 
+fsm.s8 0 1 0 0 0 0 0 0 0 1 
+fsm.s9 1 0 0 0 0 0 0 0 0 1 

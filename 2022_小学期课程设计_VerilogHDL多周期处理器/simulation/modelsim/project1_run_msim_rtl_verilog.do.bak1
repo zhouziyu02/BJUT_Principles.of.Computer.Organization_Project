@@ -1,0 +1,31 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/sb.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/PC.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/NPC.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/mips.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/lb.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/IR.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/GPR.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/EXT.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/DM.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/Controller.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/ALU.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/rega.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/regb.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/regaluout.v}
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/im_1k.v}
+
+vlog -vlog01compat -work work +incdir+D:/Desktop/PCO2 {D:/Desktop/PCO2/test.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  test
+
+add wave *
+view structure
+view signals
+run -all

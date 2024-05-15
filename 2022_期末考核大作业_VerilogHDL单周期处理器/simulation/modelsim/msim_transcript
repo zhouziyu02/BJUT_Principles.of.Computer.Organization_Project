@@ -1,0 +1,190 @@
+# Reading D:/quar/modelsim_ase/tcl/vsim/pref.tcl 
+# do p1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quar\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quar\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/pc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/npc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module npc
+# 
+# Top level modules:
+# 	npc
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX_32_2
+# -- Compiling module MUX_5
+# -- Compiling module MUX_32_3
+# 
+# Top level modules:
+# 	MUX_32_2
+# 	MUX_5
+# 	MUX_32_3
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/mips.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips
+# 
+# Top level modules:
+# 	mips
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/GPR.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module GPR
+# 
+# Top level modules:
+# 	GPR
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/EXT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EXT
+# 
+# Top level modules:
+# 	EXT
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/dm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dm_1k
+# 
+# Top level modules:
+# 	dm_1k
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/ctr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ctr
+# 
+# Top level modules:
+# 	ctr
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/im.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module im
+# 
+# Top level modules:
+# 	im
+# 
+# vlog -vlog01compat -work work +incdir+D:/Desktop/p1_1.0/p1_1.0 {D:/Desktop/p1_1.0/p1_1.0/testp1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testp1
+# 
+# Top level modules:
+# 	testp1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  testp1
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testp1 
+# Loading work.testp1
+# Loading work.mips
+# Loading work.im
+# Loading work.pc
+# Loading work.GPR
+# Loading work.EXT
+# Loading work.dm_1k
+# Loading work.npc
+# Loading work.ctr
+# Loading work.ALU
+# Loading work.MUX_32_3
+# Loading work.MUX_5
+# Loading work.MUX_32_2
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position end  sim:/testp1/mymips/pc_/pc
+add wave -position end  sim:/testp1/mymips/Gpr_/OF
+add wave -position end  sim:/testp1/mymips/Gpr_/reg_group
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./p1_run_msim_rtl_verilog.do PAUSED at line 26
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

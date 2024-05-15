@@ -1,0 +1,43 @@
+module GPR(ra,rb,rw,we,busa,busb,clk,reset,busw);
+  input [4:0]ra;
+  input [4:0]rb;
+  input [4:0]rw;
+  input [31:0]busw;
+  input reset;
+  input clk;
+  input we;
+  reg [31:0] reg_group[31:0];
+  output wire[31:0]busa;
+  output wire[31:0]busb;
+  assign busa = reg_group[ra];
+  assign busb = reg_group[rb];
+  always@(posedge clk)
+  begin
+    if(reset)
+      begin
+        reg_group[0] = 0; reg_group[17] = 0; 
+        reg_group[1] = 0; reg_group[18] = 0;
+        reg_group[2] = 0; reg_group[19] = 0;
+        reg_group[3] = 0; reg_group[20] = 0;
+        reg_group[4] = 0; reg_group[21] = 0;
+        reg_group[5] = 0; reg_group[22] = 0;
+        reg_group[6] = 0; reg_group[23] = 0;
+        reg_group[7] = 0; reg_group[24] = 0;
+        reg_group[8] = 0; reg_group[25] = 0;
+        reg_group[9] = 0; reg_group[26] = 0;
+        reg_group[10] = 0;reg_group[27] = 0;
+        reg_group[11] = 0;reg_group[28] = 0;
+        reg_group[12] = 0;reg_group[29] = 0;
+        reg_group[13] = 0;reg_group[30] = 0;
+        reg_group[14] = 0;reg_group[31] = 0;
+        reg_group[15] = 0;
+        reg_group[16] = 0;
+      end
+    else
+      begin
+        if(we && rw)
+          reg_group[rw] = busw;
+      end
+  end
+endmodule
+        

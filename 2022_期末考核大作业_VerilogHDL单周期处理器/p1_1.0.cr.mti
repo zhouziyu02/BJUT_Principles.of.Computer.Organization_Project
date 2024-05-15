@@ -1,0 +1,82 @@
+C:/Users/StephenJOJO/Desktop/p1_1.0/mips.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/npc.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/EXT.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/EXT.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/dm.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/DM.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/ALU.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/ALU.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/MUX.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/MUX.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module MUX_32_2
+-- Compiling module MUX_5
+-- Compiling module MUX_32_3
+
+Top level modules:
+	MUX_32_2
+	MUX_5
+	MUX_32_3
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/pc.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/testp1.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/testp1.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module testp1
+
+Top level modules:
+	testp1
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/ctr.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/ctr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/GPR.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/GPR.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPR
+
+Top level modules:
+	GPR
+
+} {} {}} C:/Users/StephenJOJO/Desktop/p1_1.0/im.v {1 {vlog -work work -vopt C:/Users/StephenJOJO/Desktop/p1_1.0/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}}

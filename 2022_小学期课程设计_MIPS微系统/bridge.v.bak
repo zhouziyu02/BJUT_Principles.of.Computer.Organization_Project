@@ -1,0 +1,22 @@
+module bridge (prAddr,prRd,prWd,dev_Wd,wein,imin,imout,dev_addr,weout0, weout2,dev0_Rd, dev1_Rd, dev2_Rd);
+  input [31:0] prAddr; //CPU.Addr
+  input [31:0] prWd;//CPU.Dout
+  input [31:0] dev0_Rd, dev1_Rd, dev2_Rd;
+  input wein;//
+  input [5:0] imin;
+  output weout0, weout2;
+  output [5:0] imout;//output IRQ
+  output [31:0] prRd, dev_Wd, dev_addr; //prRd:CPU.Din
+  wire HitDev0, HitDev1, HitDev2;
+  
+  assign dev_addr = prAddr;
+  assign dev_Wd = prWd;
+  assign HitDev0 = (prAddr >= 32'h00007f00 && prAddr < 32'h00007f10) ? 1 : 0;//TC
+  assign HitDev1 = (prAddr >= 32'h00007f10 && prAddr < 32'h00007f20) ? 1 : 0;//I
+  assign HitDev2 = (prAddr >= 32'h00007f20)? 1 : 0;//O
+  assign weout0 = HitDev0 & wein;
+  assign weout2 = HitDev2 & wein;
+  assign prRd = HitDev0 ? dev0_Rd 
+              : HitDev1 ? dev1_Rd : dev2_Rd;
+  assign imout = imin; //to CPU
+endmodule

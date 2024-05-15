@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="project1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|ALU:alu1|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_01p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|im_1k:im1|altsyncram:Mux18_rtl_0" CBX_FILE_NAME="altsyncram_h601.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|im_1k:im1|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_k601.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|DM:dm1|altsyncram:dm_rtl_0" CBX_FILE_NAME="altsyncram_lug1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|im_1k:im1|altsyncram:Mux15_rtl_0" CBX_FILE_NAME="altsyncram_j601.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|im_1k:im1|altsyncram:Mux24_rtl_0" CBX_FILE_NAME="altsyncram_i601.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

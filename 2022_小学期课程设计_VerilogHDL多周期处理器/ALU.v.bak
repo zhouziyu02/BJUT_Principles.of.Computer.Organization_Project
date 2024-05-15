@@ -1,0 +1,18 @@
+module ALU(A, B, ALU_op, zero, alu_out, overflow, slt, addi);
+  input [31:0]A, B;
+  input addi, slt;
+  input [2:0]ALU_op;
+  output zero, overflow;
+  output [31:0]alu_out;
+  
+  wire [31:0]tmp;
+  wire [31:0]loww, highh; 
+  wire [31:0]c = A >> B;
+  assign loww = $signed(A)/$signed(B);
+  assign highh = $signed(A) % $signed(B);
+  assign tmp = (ALU_op==0) ? A + B : (ALU_op==1) ? A - B : (ALU_op==2) ? A | B : (ALU_op==3) ? {highh, loww} : (ALU_op==4) ? {{B{0}},c[31-B:0]} :  5;
+  assign alu_out = (slt) ? {31'b0, tmp[31]} : tmp;
+  assign overflow = (addi && ((~A[31]&~B[31]&tmp[31]) | (A[31]&B[31]&~tmp[31]))) ? 1 : 0;
+  assign zero = tmp==0;
+endmodule
+  

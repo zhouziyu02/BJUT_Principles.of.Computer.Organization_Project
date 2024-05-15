@@ -1,0 +1,16 @@
+module test;
+  reg clk, rst;
+  mips m1(clk, rst);
+  
+  initial
+  begin
+    clk = 0; rst = 0;
+    #5 rst = 1;
+    #5 rst = 0;
+    $readmemh("1.txt", m1.im1.im);
+  end
+  
+  always
+    #30 clk = ~clk;
+
+endmodule

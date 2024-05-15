@@ -1,0 +1,15 @@
+module testp1;
+  reg clk,rst;
+  mips mymips(clk, rst);
+  initial
+  begin
+    clk=1;rst=0;
+    #5 rst=0;
+    #5 rst=1;
+end
+always 
+  #30 clk=~clk;
+  
+endmodule
+
+    

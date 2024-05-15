@@ -1,0 +1,43 @@
+module control(funct,opcode,OF,RegDst,ALUSrc,MemetoReg,RegWrite,MemWrite,ExtOp,ALUctr,
+N_pcsel,slt,jal,addi,luisel);
+  input [5:0]funct;
+  input [5:0]opcode;
+  input OF;
+  output ALUSrc,RegWrite,MemWrite,jal,ExtOp,luisel,slt,addi;
+  output [1:0]MemetoReg;
+  output [1:0]ALUctr;
+  output [1:0]N_pcsel;
+  output [1:0]RegDst;
+  wire addu,subu,slt,jr,ori,beq,sw,lw,lui,j,jal,addi,addiu;
+  assign addu = funct[5] & ~funct[4] & ~funct[3] & ~funct[2] & ~funct[1] & funct[0]; 
+  assign  addi = ~opcode[5] & ~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
+  assign  addiu = ~opcode[5] & ~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & opcode[0];
+  assign  addi = ~opcode[5] & ~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
+  assign  subu = funct[5] & ~funct[4] & ~funct[3] & ~funct[2] & funct[1] & funct[0];
+  assign  ori = ~opcode[5] & ~opcode[4] & opcode[3] & opcode[2] & ~opcode[1] & opcode[0];
+  assign  sw = opcode[5] & ~opcode[4] & opcode[3] & ~opcode[2] & opcode[1] & opcode[0];
+  assign  lw = opcode[5] & ~opcode[4] & ~opcode[3] & ~opcode[2] & opcode[1] & opcode[0];
+  assign  slt = funct[5] & ~funct[4] & funct[3] & ~funct[2] & funct[1] & ~funct[0];
+  assign  beq = ~opcode[5] & ~opcode[4] & ~opcode[3] & opcode[2] & ~opcode[1] & ~opcode[0];
+  assign  lui = ~opcode[5] & ~opcode[4] & opcode[3] & opcode[2] & opcode[1] & opcode[0];
+  assign  j = ~opcode[5] & ~opcode[4] & ~opcode[3] & ~opcode[2] & opcode[1] & ~opcode[0];
+  assign  jal = ~opcode[5] & ~opcode[4] & ~opcode[3] & ~opcode[2] & opcode[1] & opcode[0];
+  assign  jr = ~funct[5] & ~funct[4] & funct[3] & ~funct[2] & ~funct[1] & ~funct[0];
+  
+  
+  assign  RegDst[0] = (addu | subu | slt| OF)?1:0;
+  assign  RegDst[1] = (jal | OF)?1:0;
+  assign  ALUSrc = ori | lw | sw | lui | addiu | addi;
+  assign  MemetoReg[0] = lw;
+  assign  MemetoReg[1] = jal;
+  assign  RegWrite = ori | lw | addu | subu | slt | lui | jal | addiu | (addi & ~OF);
+  assign  MemWrite = sw;
+  assign  ExtOp = lw | sw | addi | addiu;
+  assign  luisel = lui;
+  assign  ALUctr[0] = beq | subu | slt | lui;
+  assign  ALUctr[1] = ori | lui;
+  assign  N_pcsel[0] = beq | jr;
+  assign  N_pcsel[1] = j | jr |jal;
+endmodule
+
+
